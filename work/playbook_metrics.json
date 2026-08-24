@@ -1,0 +1,19 @@
+{
+  "model": "RandomForestClassifier (client-grouped, ML-09 validated)",
+  "validated_precision_at_50": {
+    "baseline_ML05": 0.28,
+    "model_naive_split_ML09": 0.82,
+    "model_grouped_split_ML09": 0.56
+  },
+  "playbook_month": "2026-03-01 to 2026-04-01",
+  "feature_window": "2026-03-01 to 2026-03-16",
+  "label_window": "2026-03-16 to 2026-04-01",
+  "volume_floor_impressions": 500,
+  "queue_size": 41816,
+  "action_counts": {
+    "no_action": 31209,
+    "review_title_meta": 5400,
+    "refresh_content": 3246,
+    "monitor_only": 1961
+  }
+}
